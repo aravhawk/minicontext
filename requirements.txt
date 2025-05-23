@@ -1,0 +1,13 @@
+# requirements.txt
+# Core dependencies for Universal API Proxy with AI Message Condensing
+
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+httpx>=0.25.0
+python-dotenv>=1.0.0
+
+# For AI message condensing using Gemini 2.0 Flash
+openai>=1.0.0
+
+# Optional: For production deployment
+gunicorn>=21.2.0
